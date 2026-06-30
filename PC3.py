@@ -102,7 +102,7 @@ Me gusta pensar que hay infinitas cosas y personas por descubrir siempre.
     # f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>"
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
-elif opciones == 'Video':
+elif opciones == 'Experiencia':
     st.markdown("<h1 style='text-align: center;'> Video informativo 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
