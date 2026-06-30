@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa537d92938c02b19afd4b11e087365a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aa537d92938c02b19afd4b11e087365a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aa537d92938c02b19afd4b11e087365a = L.map(
+                "map_aa537d92938c02b19afd4b11e087365a",
+                {
+                    center: [25.0, -20.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d1158c37f32c6a310833e91e9476022 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4d1158c37f32c6a310833e91e9476022.addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var marker_38d46abea4c9f003de8890e5f8420227 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var icon_1bb55155b263151102eacf592201df9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b86d312dd5c1e643f5cd5934adea0963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f7ec16069be083e84b639f7957d18a9 = $(`<div id="html_5f7ec16069be083e84b639f7957d18a9" style="width: 100.0%; height: 100.0%;">     <b>Babylon</b><br>     Director: Damien Chazelle<br>     Año: 2022<br>     Género: Drama<br>     País: Estados Unidos<br>     Protagonista: Margot Robbie<br>     Duración: 189 min     </div>`)[0];
+                popup_b86d312dd5c1e643f5cd5934adea0963.setContent(html_5f7ec16069be083e84b639f7957d18a9);
+            
+        
+
+        marker_38d46abea4c9f003de8890e5f8420227.bindPopup(popup_b86d312dd5c1e643f5cd5934adea0963)
+        ;
+
+        
+    
+    
+                marker_38d46abea4c9f003de8890e5f8420227.setIcon(icon_1bb55155b263151102eacf592201df9b);
+            
+    
+            var marker_9ff116cb561e7e111e7c79e82c352043 = L.marker(
+                [-12.0464, -77.0428],
+                {
+}
+            ).addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var icon_6fb394e0e63708d6052e9e6eb2de0e5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3167574ec9e52d65f1b69a65f22d406e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a650abca4f6784999f6d1c1ea216a247 = $(`<div id="html_a650abca4f6784999f6d1c1ea216a247" style="width: 100.0%; height: 100.0%;">     <b>La teta asustada</b><br>     Director: Claudia Llosa<br>     Año: 2009<br>     Género: Drama<br>     País: Perú<br>     Protagonista: Magaly Solier<br>     Duración: 95 min     </div>`)[0];
+                popup_3167574ec9e52d65f1b69a65f22d406e.setContent(html_a650abca4f6784999f6d1c1ea216a247);
+            
+        
+
+        marker_9ff116cb561e7e111e7c79e82c352043.bindPopup(popup_3167574ec9e52d65f1b69a65f22d406e)
+        ;
+
+        
+    
+    
+                marker_9ff116cb561e7e111e7c79e82c352043.setIcon(icon_6fb394e0e63708d6052e9e6eb2de0e5d);
+            
+    
+            var marker_cef956834e8ef366d04a38a857fc41dd = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var icon_f4f4e72343ad1415de19718f2811446b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6a2b312cbdb22a36cf1bfe7f512f9c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1223ae37936f0c701a90f6fef95d1acb = $(`<div id="html_1223ae37936f0c701a90f6fef95d1acb" style="width: 100.0%; height: 100.0%;">     <b>Blue Valentine</b><br>     Director: Derek Cianfrance<br>     Año: 2010<br>     Género: Drama romántico<br>     País: Estados Unidos<br>     Protagonista: Ryan Gosling<br>     Duración: 112 min     </div>`)[0];
+                popup_b6a2b312cbdb22a36cf1bfe7f512f9c7.setContent(html_1223ae37936f0c701a90f6fef95d1acb);
+            
+        
+
+        marker_cef956834e8ef366d04a38a857fc41dd.bindPopup(popup_b6a2b312cbdb22a36cf1bfe7f512f9c7)
+        ;
+
+        
+    
+    
+                marker_cef956834e8ef366d04a38a857fc41dd.setIcon(icon_f4f4e72343ad1415de19718f2811446b);
+            
+    
+            var marker_d87ba2af0ff86fd4afa5607b71c4b5c7 = L.marker(
+                [59.9139, 10.7522],
+                {
+}
+            ).addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var icon_c7cd8850ad287ab676dcf457bdef3b0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46f3b77889930dbce262edf8fb877e69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53124ed2611fc6821b4df23c38cc9817 = $(`<div id="html_53124ed2611fc6821b4df23c38cc9817" style="width: 100.0%; height: 100.0%;">     <b>Sentimental Value</b><br>     Director: Joachim Trier<br>     Año: 2025<br>     Género: Drama<br>     País: Noruega<br>     Protagonista: Renate Reinsve<br>     Duración: 135 min     </div>`)[0];
+                popup_46f3b77889930dbce262edf8fb877e69.setContent(html_53124ed2611fc6821b4df23c38cc9817);
+            
+        
+
+        marker_d87ba2af0ff86fd4afa5607b71c4b5c7.bindPopup(popup_46f3b77889930dbce262edf8fb877e69)
+        ;
+
+        
+    
+    
+                marker_d87ba2af0ff86fd4afa5607b71c4b5c7.setIcon(icon_c7cd8850ad287ab676dcf457bdef3b0a);
+            
+    
+            var marker_34ec691df0b026db20c731720b172108 = L.marker(
+                [36.7783, -119.4179],
+                {
+}
+            ).addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+            var icon_0801971f93245730e94334e2e438a57a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e6f775a6b6f44b39ba85b0bf9c11bb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b6281fd35471de9ebc93d9e3b6a8563 = $(`<div id="html_6b6281fd35471de9ebc93d9e3b6a8563" style="width: 100.0%; height: 100.0%;">     <b>One Battle After Another</b><br>     Director: Paul Thomas Anderson<br>     Año: 2025<br>     Género: Drama<br>     País: Estados Unidos<br>     Protagonista: Leonardo DiCaprio<br>     Duración: No disponible     </div>`)[0];
+                popup_1e6f775a6b6f44b39ba85b0bf9c11bb0.setContent(html_6b6281fd35471de9ebc93d9e3b6a8563);
+            
+        
+
+        marker_34ec691df0b026db20c731720b172108.bindPopup(popup_1e6f775a6b6f44b39ba85b0bf9c11bb0)
+        ;
+
+        
+    
+    
+                marker_34ec691df0b026db20c731720b172108.setIcon(icon_0801971f93245730e94334e2e438a57a);
+            
+    
+            tile_layer_4d1158c37f32c6a310833e91e9476022.addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+                marker_38d46abea4c9f003de8890e5f8420227.setIcon(icon_1bb55155b263151102eacf592201df9b);
+            
+    
+                marker_9ff116cb561e7e111e7c79e82c352043.setIcon(icon_6fb394e0e63708d6052e9e6eb2de0e5d);
+            
+    
+                marker_cef956834e8ef366d04a38a857fc41dd.setIcon(icon_f4f4e72343ad1415de19718f2811446b);
+            
+    
+                marker_d87ba2af0ff86fd4afa5607b71c4b5c7.setIcon(icon_c7cd8850ad287ab676dcf457bdef3b0a);
+            
+    
+                marker_34ec691df0b026db20c731720b172108.setIcon(icon_0801971f93245730e94334e2e438a57a);
+            
+    
+            tile_layer_4d1158c37f32c6a310833e91e9476022.addTo(map_aa537d92938c02b19afd4b11e087365a);
+        
+    
+                marker_38d46abea4c9f003de8890e5f8420227.setIcon(icon_1bb55155b263151102eacf592201df9b);
+            
+    
+                marker_9ff116cb561e7e111e7c79e82c352043.setIcon(icon_6fb394e0e63708d6052e9e6eb2de0e5d);
+            
+    
+                marker_cef956834e8ef366d04a38a857fc41dd.setIcon(icon_f4f4e72343ad1415de19718f2811446b);
+            
+    
+                marker_d87ba2af0ff86fd4afa5607b71c4b5c7.setIcon(icon_c7cd8850ad287ab676dcf457bdef3b0a);
+            
+    
+                marker_34ec691df0b026db20c731720b172108.setIcon(icon_0801971f93245730e94334e2e438a57a);
+            
+</script>
+</html>
