@@ -142,12 +142,35 @@ elif opciones == 'Experiencia':
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Nube de palabras','Gráfico 1', 'Gráfico 2','Gráfico 3', 'Mapa']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
-
+  
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'Nube de palabras':
+        # Título de la sección
+        st.subheader("📊 Nube de palabras: Lenguas aisladas")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 20px;'>
+            Aquí debe ir una breve interpretación de tu gráfico.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen utilizando tres columnas
+        col3, col4, col5 = st.columns([1, 5, 1])
+
+        with col4:
+            st.image(
+                "pa2.JPG",
+                width=800
+            )
+    # Mostramos el gráfico seleccionado
+    if grafico_seleccionado == 'Gráfico 1':
         # Título de la sección
         st.subheader("📊 Gráfico 1: Lenguas aisladas")
 
@@ -170,7 +193,7 @@ elif opciones == 'Gráficos':
                 width=800
             )
 
-    elif grafico_seleccionado == 'Gráfico_2':
+    elif grafico_seleccionado == 'Gráfico 2':
         # Título de la sección
         st.subheader("📊 Gráfico 2: Familias lingüísticas")
 
@@ -192,9 +215,31 @@ elif opciones == 'Gráficos':
                 "lengua_familia_GB.png",
                 width=800
             )
-    elif grafico_seleccionado == 'Mapa_1':
+    elif grafico_seleccionado == 'Gráfico 3':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("📊 Gráfico 3: Familias lingüísticas")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+            Aquí debe ir una breve interpretación del gráfico.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "lengua_familia_GB.png",
+                width=800
+            )
+    elif grafico_seleccionado == 'Mapa':
+        # Título de la sección
+        st.subheader("🗺️ Mapa: Distribución geográfica")
 
         # Interpretación del mapa
         st.markdown(
