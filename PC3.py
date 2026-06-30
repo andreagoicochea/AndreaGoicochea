@@ -91,7 +91,7 @@ Lo que más me gusta de mi carrera es la posibilidad de conocer distintas realid
 
 Aunque aún tengo dudas sobre en qué rama especializarme, tengo opciones como el fotoperiodismo o el periodismo de investigación. Siempre me han gustado temas relacionados con política y coyuntura nacional y considero que desde estos enfoques puedo impactar periodísticamente a la sociedad. 
 
-En mi tiempo libre disfruto escuchar música, ver películas y leer. Me considero una cinéfila en su totalidad y me apasiona descubrir nuevas películas y cine de arte. Del mismo modo, últimamente he retomado mi hobby de la lectura de manera frecuente y siempre me gusta acompañarlo de un café bien cargado. 
+En mi tiempo libre disfruto fotografiar, escuchar música, ver películas y leer. Me considero una cinéfila en su totalidad y me apasiona descubrir nuevas películas y cine de arte. Del mismo modo, últimamente he retomado mi hobby de la lectura de manera frecuente y siempre me gusta acompañarlo de un café bien cargado. 
 
 Me gusta pensar que hay infinitas cosas y personas por descubrir siempre. 
     """
