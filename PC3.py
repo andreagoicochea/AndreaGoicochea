@@ -78,14 +78,14 @@ if opciones == 'Inicio':
     col1, col2 = st.columns(2)
 
     # Muestra una imagen en la primera columna
-    col1.image("pa1.JPG", caption='Andrea', width=300)
+    col1.image("andreafotobw.jpeg", caption='Andrea', width=300)
     # "ellie.png" es el archivo de imagen que se visualizará -> Aquí debes reemplazar por tu foto de perfil
     # El texto "Ellie" aparecerá como descripción de la imagen
     # width=300 establece el ancho de la imagen en 300 píxeles
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-   ¡Hola, mi nombre es Andrea Goicochea! Soy una persona curiosa, responsable y con muchas ganas de aprender cosas nuevas. Soy de Lima y actualmente estudio periodismo. Elegí esta carrera porque me encantan las oportunidades que te brinda la carrera para el desarrollo personal, permitiendo a uno desenvolverse desde la fotografía hasta la escritura, oratoria, etc. 
+   ¡Hola, mi nombre es Andrea Goicochea! Soy una persona curiosa, responsable y con muchas ganas de aprender cosas nuevas. Soy de Lima y actualmente estudio periodismo. Elegí esta carrera porque me encantan las oportunidades que te brinda la carrera para el desarrollo personal, permitiendo a uno desenvolverse desde la fotografía hasta la escritura, oratoria, etc.
 
 Lo que más me gusta de mi carrera es la posibilidad de conocer distintas realidades y contar historias que pueden generar un impacto en las personas. Asimismo, me motiva no solo desarrollar habilidades de comunicación, sino poder investigar a profundidad y aprender a transmitir información de manera clara y responsable.
 
