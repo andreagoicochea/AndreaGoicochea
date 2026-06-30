@@ -85,13 +85,15 @@ if opciones == 'Inicio':
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+   ¡Hola, mi nombre es Andrea Goicochea! Soy una persona curiosa, responsable y con muchas ganas de aprender cosas nuevas. Soy de Lima y actualmente estudio periodismo. Elegí esta carrera porque me encantan las oportunidades que te brinda la carrera para el desarrollo personal, permitiendo a uno desenvolverse desde la fotografía hasta la escritura, oratoria, etc. 
+
+Lo que más me gusta de mi carrera es la posibilidad de conocer distintas realidades y contar historias que pueden generar un impacto en las personas. Asimismo, me motiva no solo desarrollar habilidades de comunicación, sino poder investigar a profundidad y aprender a transmitir información de manera clara y responsable.
+
+Aunque aún tengo dudas sobre en qué rama especializarme, tengo opciones como el fotoperiodismo o el periodismo de investigación. Siempre me han gustado temas relacionados con política y coyuntura nacional y considero que desde estos enfoques puedo impactar periodísticamente a la sociedad. 
+
+En mi tiempo libre disfruto escuchar música, ver películas y leer. Me considero una cinéfila en su totalidad y me apasiona descubrir nuevas películas y cine de arte. Del mismo modo, últimamente he retomado mi hobby de la lectura de manera frecuente y siempre me gusta acompañarlo de un café bien cargado. 
+
+Me gusta pensar que hay infinitas cosas y personas por descubrir siempre. 
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
