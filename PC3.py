@@ -149,7 +149,7 @@ elif opciones == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Nube de palabras':
         # Título de la sección
-        st.subheader("📊 Nube de palabras: Lenguas aisladas")
+        st.subheader("📊 Nube de palabras: A dónde va el viento")
 
         # Interpretación del gráfico
         st.markdown(
@@ -166,13 +166,13 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "pa2.JPG",
+                "nubedepalabras.png",
                 width=800
             )
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico 1':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Gráfico 1: Rendimiento de Barcelona como participante")
 
         # Interpretación del gráfico
         st.markdown(
@@ -189,13 +189,13 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "pa2.JPG",
+                "graficopastel.png",
                 width=800
             )
 
     elif grafico_seleccionado == 'Gráfico 2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 Gráfico 2: Promedio de tarjetas rojas por cada equipo como local")
 
         # Interpretación del gráfico
         st.markdown(
@@ -212,12 +212,12 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "graficohistograma.png",
                 width=800
             )
     elif grafico_seleccionado == 'Gráfico 3':
         # Título de la sección
-        st.subheader("📊 Gráfico 3: Familias lingüísticas")
+        st.subheader("📊 Gráfico 3: Análisis de goles del Barcelona:Temporada 2025-2026")
 
         # Interpretación del gráfico
         st.markdown(
@@ -234,12 +234,12 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "graficobarras.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa':
         # Título de la sección
-        st.subheader("🗺️ Mapa: Distribución geográfica")
+        st.subheader("🗺️ Mapa: Mapa Interactivo")
 
         # Interpretación del mapa
         st.markdown(
