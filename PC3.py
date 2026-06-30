@@ -133,7 +133,7 @@ elif opciones == 'Experiencia':
     #st.link_button(
             #"Ver video",
             #"https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
-        )
+       # )
     # Agrega una breve descripción del video.
     #st.caption(
     #    "En este video se presenta ...., "
