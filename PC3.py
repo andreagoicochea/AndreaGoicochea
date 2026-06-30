@@ -177,8 +177,7 @@ Se creó una nube de palabras haciendo uso de un diccionario obtenido previament
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
-            </div>
+Se creó un gráfico de pastel para representar el rendimiento del Barcelona como equipo participante. Este gráfico permite visualizar la proporción de resultados obtenidos (victorias, empates y derrotas), facilitando la interpretación del desempeño del equipo a lo largo de la competencia.            </div>
             """,
             unsafe_allow_html=True
         )
@@ -200,8 +199,7 @@ Se creó una nube de palabras haciendo uso de un diccionario obtenido previament
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
-            </div>
+Se creó un histograma para representar el promedio de tarjetas rojas recibidas por cada equipo cuando juega como local. Esta visualización permite comparar la distribución de este indicador entre los distintos equipos e identificar aquellos con un mayor o menor promedio de expulsiones en condición de local.            </div>
             """,
             unsafe_allow_html=True
         )
@@ -222,8 +220,7 @@ Se creó una nube de palabras haciendo uso de un diccionario obtenido previament
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
-            </div>
+Se elaboró un gráfico de barras para analizar los goles anotados por el Barcelona durante la temporada 2025-2026. Esta visualización permite comparar la cantidad de goles registrados en los diferentes partidos o competiciones, facilitando la identificación de los encuentros con mayor producción ofensiva y el rendimiento goleador del equipo a lo largo de la temporada.            </div>
             """,
             unsafe_allow_html=True
         )
