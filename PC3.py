@@ -119,7 +119,7 @@ elif opciones == 'Experiencia':
     st.subheader("🎥 Video 1 - YouTube")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://www.youtube.com/watch?v=vG2zsCXrz3w")
     # Agrega una breve descripción del video.
     st.caption(
         "En este video se presenta ...., "
@@ -127,17 +127,17 @@ elif opciones == 'Experiencia':
 
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Google Drive")
+    # st.subheader("🎥 Video 1 - Google Drive")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
-    st.link_button(
-            "Ver video",
-            "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
+    #st.link_button(
+            #"Ver video",
+            #"https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
         )
     # Agrega una breve descripción del video.
-    st.caption(
-        "En este video se presenta ...., "
-    )
+    #st.caption(
+    #    "En este video se presenta ...., "
+   # )
 
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
