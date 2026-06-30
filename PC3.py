@@ -155,8 +155,7 @@ elif opciones == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
-            </div>
+Se creó una nube de palabras haciendo uso de un diccionario obtenido previamente. A partir de este diccionario, se generó una representación visual en la que el tamaño de cada palabra refleja su frecuencia de aparición, facilitando la identificación de los términos más relevantes del texto analizado, es decir, la letra de una canción de Julieta Venegas.            </div>
             """,
             unsafe_allow_html=True
         )
