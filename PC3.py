@@ -102,7 +102,7 @@ Me gusta pensar que hay infinitas cosas y personas por descubrir siempre.
     # f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>"
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
-elif opciones == 'Experiencia':
+elif opciones == 'Video':
     st.markdown("<h1 style='text-align: center;'> Video informativo 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
@@ -122,7 +122,7 @@ elif opciones == 'Experiencia':
     st.video("https://www.youtube.com/watch?v=vG2zsCXrz3w")
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta una explicación de los conceptos fundamentales de ambos tipos de operadores, su funcionamiento y la forma en que se utilizan mediante ejemplos prácticos, con el propósito de comprender su aplicación en la programación. "
     )
 
     # Formato B
