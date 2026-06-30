@@ -140,7 +140,7 @@ elif opciones == 'Experiencia':
    # )
 
 elif opciones == 'Gráficos':
-    st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'> Gráficos 📊</h2>", unsafe_allow_html=True)
 
     graficos = ['Nube de palabras','Gráfico 1', 'Gráfico 2','Gráfico 3', 'Mapa']
 
