@@ -241,8 +241,7 @@ Se elaboró un gráfico de barras para analizar los goles anotados por el Barcel
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
-            </div>
+Se elaboró un mapa interactivo con cinco de mis películas favoritas: Babylon, La teta asustada, Blue Valentine, Sentimental Value y One Battle After Another. Para cada una de ellas, se incluyó información adicional como el director, el género, el país de origen, los protagonistas y la duración, permitiendo explorar en el mapa el lugar de filmación de cada película.            </div>
             """,
             unsafe_allow_html=True
         )
