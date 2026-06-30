@@ -107,7 +107,7 @@ elif opciones == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Video realizado como parte de una entrega asincrónica sobre 
+    Video realizado como parte de una entrega asincrónica (PC1) sobre operadores boleanos, especificamente, operadores de pertenencia y lógicos. 
     """
 
     # Mostramos el texto
