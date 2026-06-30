@@ -149,7 +149,7 @@ elif opciones == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Nube de palabras':
         # Título de la sección
-        st.subheader("📊 Nube de palabras: A dónde va el viento")
+        st.subheader("☁️ Nube de palabras: A dónde va el viento")
 
         # Interpretación del gráfico
         st.markdown(
