@@ -164,7 +164,7 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "pa2.JPG",
                 width=800
             )
 
