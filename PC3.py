@@ -103,11 +103,11 @@ Me gusta pensar que hay infinitas cosas y personas por descubrir siempre.
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
 elif opciones == 'Experiencia':
-    st.markdown("<h1 style='text-align: center;'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Video informativo 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    ...
+    Video realizado como parte de una entrega asincrónica sobre 
     """
 
     # Mostramos el texto
